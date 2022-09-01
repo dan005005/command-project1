@@ -1,4 +1,7 @@
-@import './common';
+@import './utils/common';
+@import './utils/containers';
+@import './utils/variables';
+@import './utils/visually-hidden';
 
 @import './header-hero';
 @import './products';
