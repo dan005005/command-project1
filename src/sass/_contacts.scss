@@ -27,6 +27,7 @@ address {
   height: auto;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   background-color: #fcfcfc;
+  margin: auto;
   @media screen and (min-width: 768px) {
     width: 224px;
     height: auto;
@@ -44,7 +45,6 @@ address {
 
 @media screen and (max-width: 767px) {
   .contacts__item:not(:last-child) {
-    margin: auto;
     margin-bottom: 20px;
   }
 }
