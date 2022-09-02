@@ -1,13 +1,11 @@
-a {
-  text-decoration: none;
-}
+
 .address {
   font-style: normal;
   background-color: #84a178;
 }
-
 .contacts__box {
   padding: 40px 32px;
+
   border: 1px solid transparent;
   border-radius: 30px;
   width: 280;
@@ -17,12 +15,14 @@ a {
 }
 
 .contacts__box:not(:last-child) {
+
   margin-bottom: 20px;
 }
 
 .contacts__institution {
   display: block;
   margin-bottom: 20px;
+  margin-top: 40px;
   align-items: center;
   text-align: center;
   border-radius: 4px;
