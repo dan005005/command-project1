@@ -1,2 +1,26 @@
-.products{
+.products__pretitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        align-items: center;
+}
+.products__title {
+        margin-bottom: 144px;  
+        font-family: 'Seymour One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        width: 270px;
+        height: 38px;
+        left: 25px;
+        top: 596px;
+        align-items: center;
+}
+
+.products__icon {
+    background-color: transparent;
+    border: none;
 }
