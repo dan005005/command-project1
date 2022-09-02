@@ -13,8 +13,13 @@
     line-height: 1.22;
     text-transform: uppercase;
     color: #FCFCFC;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     width: 232px;
+    @media screen and (min-width: 1200px) {
+            margin-bottom: 14px;
+            width: 100%;
+    
+        }
 }
 .footer__text--direction{
     display: block;
@@ -26,16 +31,43 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FCFCFC;
-    padding-bottom: 42px;
+   /* padding-bottom: 42px;*/
     width: 200px;
+    margin-bottom: 32px;
+    @media screen and (min-width: 1200px) {
+            margin-bottom: 54px;
+            width: 100%;
+    
+        }
+}
+.footer__box {
+    @media screen and (min-width: 768px){
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    
+    /*justify-content: space-around;*/
+    /*align-items: baseline;*/
+   
 }
 
 .socials{
-    margin-bottom: 38px;
+     margin-bottom: 38px;
     justify-content: end;
     display: flex;
     gap: 28px;
+    @media screen and (min-width: 768px) {
+            margin-bottom: 32px;
     
+        }
+    
+     @media screen and (min-width: 1200px) {
+            margin-bottom: 40px;
+    
+        }
+
 }
 
 .socials__link{
@@ -46,8 +78,12 @@
     background-color: #F8D24E;
     width: 32px;
     height: 32px;
-    fill: #FCFCFC;
-                 
+    fill: #84A178;
+        &:hover,
+        &:focus {
+                fill: #FCFCFC;
+        
+            }
 }
 .footer__contacts{
     font-family: 'Montserrat';
@@ -56,8 +92,17 @@
     font-size: 12px;
     line-height: 1.86;
     text-align: right;
-    margin-bottom: 40px;
+   
     color: #131313;
+    @media screen and (max-width: 768px) {
+            margin-bottom: 40px;
+    
+        }
+     @media screen and (min-width: 1200px) {
+    margin-bottom: 60px;
+    width: 100%;
+        
+                 }
 }
 .footer__contacts--tel{
     font-family: 'Montserrat';
@@ -72,7 +117,7 @@
     
 }
 .footer__rights{
-    
+    width: 280px;
     padding-top: 16px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -82,10 +127,15 @@
     text-align: center;
     color: #7A7A7A;
     padding-bottom: 62px;
-    @media screen and (max-width:767px) {
-        width: 280px;
+    @media screen and (min-width:768px) {
+        width: 100%;
         
     }
+        @media screen and (min-width: 1200px) {
+            font-size: 12px;
+            line-height: 1.86;
+    
+        }
 }
 .class{
 border-top: 1px solid #E1E1E1;
