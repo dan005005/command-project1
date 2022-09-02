@@ -1,10 +1,90 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+header {
+  background: teal;
+}
+
+.products {
+  background-color: brown;
+}
+
 a {
   text-decoration: none;
 }
+
 .address {
   font-style: normal;
   background-color: #84a178;
 }
+
 .contacts {
   border: 1px solid transparent;
   border-radius: 30px;
@@ -70,10 +150,11 @@ a {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+
 .contacts__day:not(:last-child) {
   padding-bottom: 8px;
 }
 
 .contacts__titel--padding {
   padding-bottom: 8px;
-}
+}/*# sourceMappingURL=index.css.map */
