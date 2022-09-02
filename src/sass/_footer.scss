@@ -1,0 +1,94 @@
+.footer{
+    background-color: #84A178;
+    padding-top: 32px;
+    
+    
+}
+.footer__text{
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: #FCFCFC;
+    padding-bottom: 16px;
+    width: 232px;
+}
+.footer__text--direction{
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.20;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FCFCFC;
+    padding-bottom: 42px;
+    width: 200px;
+}
+
+.socials{
+    margin-bottom: 38px;
+    justify-content: end;
+    display: flex;
+    gap: 28px;
+    
+}
+
+.socials__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F8D24E;
+    width: 32px;
+    height: 32px;
+    fill: #FCFCFC;
+                 
+}
+.footer__contacts{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.86;
+    text-align: right;
+    margin-bottom: 40px;
+    color: #131313;
+}
+.footer__contacts--tel{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.86;
+    text-align: right;
+    color: #FCFCFC;
+    
+   
+    
+}
+.footer__rights{
+    
+    padding-top: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.52;
+    text-align: center;
+    color: #7A7A7A;
+    padding-bottom: 62px;
+    @media screen and (max-width:767px) {
+        width: 280px;
+        
+    }
+}
+.class{
+border-top: 1px solid #E1E1E1;
+max-width: 100%;
+
+}
