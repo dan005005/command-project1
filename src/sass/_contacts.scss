@@ -5,24 +5,24 @@ a {
   font-style: normal;
   background-color: #84a178;
 }
-.contacts {
+
+.contacts__box {
+  padding: 40px 32px;
   border: 1px solid transparent;
   border-radius: 30px;
   width: 280;
   height: 412px;
-  padding-left: 32px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   background-color: #fcfcfc;
 }
 
-.contacts:not(:last-child) {
+.contacts__box:not(:last-child) {
   margin-bottom: 20px;
 }
 
 .contacts__institution {
   display: block;
   margin-bottom: 20px;
-  margin-top: 40px;
   align-items: center;
   text-align: center;
   border-radius: 4px;
@@ -39,22 +39,24 @@ a {
 .contacts__titel {
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.86;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 .contacts__link {
+  display: block;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.83;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #d6936d;
 }
 
 .contacts__time {
+  display: block;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.86;
+  line-height: 1.5;
   color: #ababab;
 }
 
@@ -71,9 +73,53 @@ a {
   margin-bottom: 24px;
 }
 .contacts__day:not(:last-child) {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .contacts__titel--padding {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.contacts {
+  margin-bottom: 32px;
+}
+
+.button {
+  align-items: center;
+  text-align: center;
+}
+.button__left {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  text-align: center;
+  width: 161px;
+  height: 49px;
+
+  color: #000000;
+  border-radius: 10px;
+  border: 1px solid #f8d24e;
+  background-color: #f8d24e;
+  margin-bottom: 8px;
+}
+
+.button__right {
+  border: 2px solid #f8d24e;
+  border-radius: 10px;
+  width: 161px;
+  height: 49px;
+  background-color: #84a178;
+  color: #fcfcfc;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  text-align: center;
+}
+
+.button__icon {
+  padding-left: 8px;
 }

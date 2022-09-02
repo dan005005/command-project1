@@ -1,17 +1,18 @@
-<h2 class="visually-hidden">Contacts</h2>
-
-<address class="address">
-  <div class="container">
-    <div class="contacts">
+<section class="container address">
+  <h2 class="visually-hidden">Contacts</h2>
+  <ul class="contacts">
+    <li class="contacts__box">
       <span class="contacts__institution">CAFE</span>
       <p class="contacts__titel contacts__titel--padding">Chicago</p>
-      <a
-        href="href="
-        target="_blank"
-        rel="noopener noreferrer"
-        class="contacts__link"
-        >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a
-      >
+      <address>
+        <a
+          href="href="
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contacts__link"
+          >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a
+        >
+      </address>
       <div class="contacts__wrap">
         <ul class="contacts__list">
           <li class="contacts__day">
@@ -24,20 +25,22 @@
           </li>
         </ul>
       </div>
-      <ul>
-        <li>
-          <a href="tel:+61(0)383766284" class="contacts__link"
-            >+61(0) 383 766 284</a
-          >
-        </li>
-        <li>
-          <a href="mailto:noreply@envato.com" class="contacts__link"
-            >noreply@envato.com</a
-          >
-        </li>
-      </ul>
-    </div>
-    <div class="contacts">
+      <address>
+        <ul>
+          <li>
+            <a href="tel:+61(0)383766284" class="contacts__link"
+              >+61(0) 383 766 284</a
+            >
+          </li>
+          <li>
+            <a href="mailto:noreply@envato.com" class="contacts__link"
+              >noreply@envato.com</a
+            >
+          </li>
+        </ul>
+      </address>
+    </li>
+    <li class="contacts__box">
       <span class="contacts__institution">FOODTRUCK</span>
       <p class="contacts__titel contacts__titel--padding">Los Angeles</p>
       <a
@@ -71,8 +74,8 @@
           >
         </li>
       </ul>
-    </div>
-    <div class="contacts">
+    </li>
+    <li class="contacts__box">
       <span class="contacts__institution">CAFE</span>
       <p class="contacts__titel contacts__titel--padding">New York</p>
       <a
@@ -106,6 +109,19 @@
           >
         </li>
       </ul>
-    </div>
-  </div>
-</address>
+    </li>
+  </ul>
+  <ul class="button">
+    <li class="button__item">
+      <button class="button__left" type="button">
+        Our Locations
+        <svg class="subscribe__icon" width="24px" height="24px">
+          <use href=""></use>
+        </svg>
+      </button>
+    </li>
+    <li class="button__item">
+      <button class="button__right" type="button">Franchise</button>
+    </li>
+  </ul>
+</section>
