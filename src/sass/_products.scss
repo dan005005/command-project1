@@ -1,2 +1,42 @@
-.products{
+.products {
+    background-color: #5BB676;
+
+    @media (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 112px;
+    }
+
+    @media (min-width: 1280px) {
+        padding-top: 127px;
+        padding-bottom: 119px;
+    }
+}
+
+.products__pretitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.22;
+    align-items: center;
+    color: #000;
+}
+
+.products__title {
+    margin-bottom: 144px;
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.26;
+    width: 270px;
+    height: 38px;
+    left: 25px;
+    top: 596px;
+    align-items: center;
+}
+
+.products__icon {
+    background-color: transparent;
+    border: none;
 }
