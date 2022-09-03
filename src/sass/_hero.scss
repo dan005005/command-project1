@@ -1,0 +1,340 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.products {
+  margin-top: -1px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.main-ice {
+  display: block;
+}
+.products-list {
+  margin: 0;
+  padding: 0;
+}
+.products-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.header-title {
+  margin: 0;
+  font-family: 'Seymour One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding-top: 40px;
+  margin-bottom: 28px;
+  width: 367px;
+  height: 144px;
+
+  color: #fcfcfc;
+}
+.ice-icon {
+  margin-right: 16px;
+}
+
+.title-list {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+.product-title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #131313;
+}
+.product-sub-title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.button-made {
+  background: #84a278;
+  width: 111px;
+  height: 17px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: #f8d24e;
+  color: #f8d24e;
+  border: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .box-product {
+    padding-left: 20px;
+    padding-right: 53px;
+  }
+  .products-item {
+    display: none;
+  }
+  .title-list {
+    display: none;
+  }
+  .box-product {
+    background-image: url('../img/tochki.mob.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .button-made {
+    width: 83px;
+    height: 24px;
+    padding: 0;
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .products {
+    background: #84a278;
+    max-width: 767px;
+    padding: 0;
+  }
+  .ice-icon-big {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+  }
+  .header-title {
+    width: 247px;
+    height: 97px;
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  .button-products {
+    color: #000000;
+    background: #84a278;
+    border: 2px solid #f8d24e;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    width: 62px;
+    height: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .products {
+    background: #84a278;
+    max-width: 1199px;
+    padding: 0;
+  }
+  .button-products {
+    width: 62px;
+    height: 24px;
+    border: 2px solid #f8d24e;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    background: #84a278;
+    margin-bottom: 28px;
+  }
+  .button-made {
+    width: 66px;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    align-items: center;
+    text-decoration-line: underline;
+    padding: 0;
+    margin: 0;
+    margin-left: 16px;
+  }
+  .box-product {
+    position: relative;
+    background-image: url('../img/tochki.tablet.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .products-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+  }
+  .product-sub-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: right;
+    color: #fff;
+  }
+
+  .ice-icon-big {
+    filter: drop-shadow(16px 16px 100px white);
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+  }
+
+  .product-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    width: 151px;
+    height: 85px;
+
+    color: #ffffff;
+  }
+  .header-title {
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    width: 181px;
+    height: 74px;
+    color: #fcfcfc;
+  }
+  .sub {
+    font-size: 24px;
+    line-height: 13px;
+  }
+  .title-list {
+    position: absolute;
+    top: 20px;
+    right: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products {
+    max-width: 1200px;
+    background: #84a278;
+    margin: 0 auto;
+    margin-top: -1px;
+  }
+  .ice-icon {
+    margin-top: 50px;
+  }
+  .main-ice {
+    filter: drop-shadow(16px 16px 100px white);
+  }
+  .product-text::before {
+    content: '';
+    background-image: url('../img/arrow.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    top: 97px;
+    left: 0;
+    width: 40px;
+    height: 20px;
+  }
+
+  .product-text {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    width: 200px;
+    height: 80px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  .ice-icon-big {
+    position: absolute;
+  }
+  .products-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .button-made {
+    font-size: 14px;
+    line-height: 17px;
+    width: 111px;
+    margin: 0;
+  }
+  .box-product {
+    position: relative;
+    background-image: url('../img/tochki.desctop.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 560px;
+  }
+
+  .tochki {
+    bottom: 378px;
+    position: absolute;
+  }
+  .button-products {
+    color: #000000;
+    background: #84a278;
+    width: 138px;
+    height: 42px;
+    border: 2px solid #f8d24e;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 32px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .products-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+}
