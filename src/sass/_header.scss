@@ -1,3 +1,7 @@
+.logo {
+  z-index: 1000;
+}
+
 .page-header__container {
   background-color: var(--background-color);
   
@@ -30,7 +34,8 @@
 }
 
 .navigation__item:not(:last-child) {
-    margin-right: 27px;
+  margin-right: 27px;
+  z-index: 100;
 }
 
 .navigation__link {
@@ -54,6 +59,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
   
   min-width: 152px;
   height: 42px;
@@ -83,6 +89,28 @@
   }
 
   @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.mobile-menu-open {
+  display: inline-flex;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  z-index: 100;
+
+  @media screen and (max-width: 767px) {
+    top: 16px;
+    right: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-right: 32px;
+  }
+
+  @media screen and (min-width: 1200px) {
     display: none;
   }
 }
