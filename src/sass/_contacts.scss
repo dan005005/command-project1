@@ -1,9 +1,7 @@
 address {
   font-style: normal;
 }
-.contacts {
-  background-color: #84a178;
-}
+
 .contacts__box {
   margin-bottom: 32px;
   @media screen and (min-width: 768px) {
@@ -29,7 +27,7 @@ address {
   background-color: #fcfcfc;
   margin: auto;
   @media screen and (min-width: 768px) {
-    width: 224px;
+    flex-basis: calc((100% - 16px) / 3);
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +35,7 @@ address {
     padding: 40px 24px;
   }
   @media screen and (min-width: 1200px) {
-    width: 368px;
+    flex-basis: calc((100% - 32px) / 3);
     height: auto;
     padding: 40px 40px;
   }
@@ -75,9 +73,13 @@ address {
   display: block;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1.83;
   letter-spacing: 0.04em;
   @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+  @media screen and (min-width: 1200px) {
     font-size: 16px;
     line-height: 1.86;
   }
@@ -87,22 +89,14 @@ address {
   display: block;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1.83;
   letter-spacing: 0.04em;
   color: #d6936d;
   @media screen and (min-width: 768px) {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.83;
   }
-}
-.contacts__phone {
-  display: block;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #131313;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     font-size: 16px;
     line-height: 1.83;
   }
@@ -115,6 +109,27 @@ address {
   line-height: 1.5;
   color: #ababab;
   @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.86;
+  }
+}
+
+.contacts__phone {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+  color: #131313;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+  @media screen and (min-width: 1200px) {
     font-size: 16px;
     line-height: 1.86;
   }
@@ -162,7 +177,8 @@ address {
 }
 .button__dark {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  text-align: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -181,15 +197,14 @@ address {
   margin-bottom: 8px;
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
-    align-items: center;
-    text-align: center;
   }
 }
 
 .button__light {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-weight: 600;
@@ -203,16 +218,12 @@ address {
   border-radius: 10px;
   background-color: #84a178;
   color: #131313;
-  @media screen and (min-width: 768px) {
-    align-items: center;
-    text-align: center;
-  }
 }
 
 .button__img {
-  width: 6px;
-  height: 10px;
-  margin-left: 7px;
+  width: 12px;
+  height: 12px;
+  margin-left: 6px;
   align-items: center;
   text-align: center;
 }
