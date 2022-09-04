@@ -80,19 +80,20 @@
     text-decoration-color: white;
   }
 }
-.hero__points {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 320px;
-}
+// .hero__points {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   width: 320px;
+// }
 .hero__main-photo {
   position: absolute;
-  bottom: -44px;
-  left: 17px;
+  bottom: 0;
+  left: 60px;
+  filter: drop-shadow(10px 10px 45px white);
 }
 .main_ice-cream {
-  width: 230px;
+  width: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -148,21 +149,22 @@
   .hero__btn {
     margin-bottom: 28px;
   }
-  .hero__points {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 768px;
-  }
+  // .hero__points {
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   width: 768px;
+  // }
   .hero__photo {
     position: absolute;
-    top: 0;
+    top: -5px;
     z-index: 2;
   }
   .hero__main-photo {
     position: absolute;
-    bottom: -42px;
-    margin-left: 325px;
+    bottom: -8px;
+    margin-left: 275px;
+    filter: drop-shadow(16px 16px 80px white);
   }
   .main_ice-cream {
     width: auto;
@@ -200,12 +202,7 @@
     height: 343px;
     padding-top: 32px;
   }
-  .hero__points {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 768px;
-  }
+
   .hero__arrow {
     position: absolute;
     width: 41px;
@@ -276,12 +273,12 @@
   .container {
     width: 1200px;
   }
-  .hero__points {
-    position: absolute;
-    bottom: 45px;
-    width: 1200px;
-    height: 354px;
-  }
+  // .hero__points {
+  //   position: absolute;
+  //   bottom: 45px;
+  //   width: 1200px;
+  //   height: 354px;
+  // }
   .ice-creams {
     width: 225px;
   }
@@ -322,8 +319,9 @@
   }
   .hero__main-photo {
     position: absolute;
-    bottom: -96px;
-    left: 233px;
+    bottom: 0;
+    left: 354px;
+    filter: drop-shadow(16px 16px 80px white);
   }
 
   .main_ice-cream {
