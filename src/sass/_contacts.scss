@@ -189,6 +189,8 @@ address {
   height: 42px;
   padding-top: 13px;
   padding-bottom: 13px;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   color: #131313;
   border-radius: 10px;
@@ -218,6 +220,8 @@ address {
   border-radius: 10px;
   background-color: #84a178;
   color: #131313;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button__img {
