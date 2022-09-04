@@ -6,10 +6,10 @@
       </h1>
       <ul class="hero__btn">
         <li class="hero__item">
-          <button type="button" class="button-products">Products</button>
+          <button class="link-products">Products</button>
         </li>
         <li class="hero__item">
-          <button type="button" class="button-made">How it’s made?</button>
+          <button href="#advantages" class="link-made">How it’s made?</button>
         </li>
       </ul>
       <div class="hero__additional-content">
@@ -40,8 +40,11 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et
         </p>
+        <svg class="hero__arrow">
+          <use href="./images/sprite.svg#icon-arrow-hero"></use>
+        </svg>
       </div>
-      <picture class="hero__points">
+      <!-- <picture class="hero__points">
         <source
           srcset="
             ./images/desktop/points.png    1x,
@@ -64,7 +67,7 @@
           media="(max-width: 767px)"
         />
         <img src="./images/mobile/points.png" alt="points" width="100%" />
-      </picture>
+      </picture> -->
       <picture class="hero__main-photo">
         <source
           srcset="
