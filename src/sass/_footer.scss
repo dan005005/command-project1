@@ -7,8 +7,7 @@
 
 .footer__text {
     display: block;
-    font-family: 'Montserrat';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 1.22;
@@ -16,30 +15,42 @@
     color: #FCFCFC;
     margin-bottom: 16px;
     width: 232px;
+    @media screen and (min-width: 768px) {
+            font-size: 26px;
+            line-height: 1.23;
+    
+        }
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 14px;
         width: 100%;
+        font-size: 30px;
+        line-height: 1.23;
 
     }
 }
 
 .footer__text--direction {
     display: block;
-    font-family: 'Montserrat';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 34px;
     line-height: 1.20;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FCFCFC;
-    /* padding-bottom: 42px;*/
+    
     width: 200px;
     margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        line-height: 1.23;
+    
+        }
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 54px;
+        line-height: 1.31;
         width: 100%;
 
     }
@@ -53,9 +64,7 @@
         align-items: center;
     }
 
-    /*justify-content: space-around;*/
-    /*align-items: baseline;*/
-
+   
 }
 
 .socials {
@@ -94,8 +103,7 @@
 }
 
 .footer__contacts {
-    font-family: 'Montserrat';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 12px;
     line-height: 1.86;
@@ -105,19 +113,21 @@
 
     @media screen and (max-width: 768px) {
         margin-bottom: 40px;
+        font-size: 14px;
+        
 
     }
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 60px;
         width: 100%;
+        font-size: 12px;
 
     }
 }
 
 .footer__contacts--tel {
-    font-family: 'Montserrat';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 12px;
     line-height: 1.86;
@@ -132,8 +142,7 @@
     margin: auto;
     width: 280px;
     padding-top: 16px;
-    font-family: 'Montserrat';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.52;
